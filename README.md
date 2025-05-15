@@ -1,6 +1,6 @@
 # 🤖 Multi-Agent RAG System for Local PDFs
 
-![Multi-Agent RAG System Banner](https://github.com/user/Multi-Agent-RAG-System-for-Local-PDFs/raw/main/doc/system-flowchart.png)
+![Multi-Agent RAG System Banner](https://github.com/AbdooMohamedd/Multi-Agent-RAG-System-for-Local-PDFs/blob/main/Multi-Agent-RAG-System-for-Local-PDFs-Flowchart.png)
 
 ## 📋 Overview
 
