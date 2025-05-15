@@ -1,0 +1,5 @@
+AskPDF_Crew_Env
+.env
+
+# Ignore all files in the AskPDF_Crew_Env directory
+AskPDF_Crew_Env/*  

@@ -1,0 +1,23 @@
+pdf_search_task:
+  description: >
+    Using the PDFSearchTool, search the PDF document for content relevant to the user's question: "{question}"
+    Make sure to extract the most important and relevant information that directly answers the question.
+    Include context around the answer to ensure completeness. If the answer spans multiple sections
+    of the PDF, make sure to find and include all relevant parts.
+  expected_output: >
+    A comprehensive answer that contains all relevant information from the PDF that answers the user's question: "{question}"
+    Include exact quotes and page references when appropriate.
+  agent: pdf_searcher
+
+answer_writing_task:
+  description: >
+    Based on the user's question: "{question}" and the PDF content provided by the PDF searcher,
+    create a well-structured, clear answer that directly addresses the question.
+    Format your response in a readable way, using appropriate headings, bullet points, or 
+    paragraphs as needed. Make sure the answer is complete and maintains accuracy to the 
+    source content.
+  expected_output: >
+    A well-formatted answer in markdown format (without code blocks) that directly addresses 
+    the user's question based only on information found in the PDF content.
+    The answer should be comprehensive yet concise, and properly formatted for readability.
+  agent: content_writer

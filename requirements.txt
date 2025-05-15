@@ -1,0 +1,8 @@
+# filepath: c:\Users\Lenovo\Documents\GitHub\Multi-Agent-RAG-System-for-Local-PDFs\requirements.txt
+crewai[tools]>=0.28.0    # Includes PDFSearchTool and tool integration
+crewai-tools>=0.1.6      # Additional tools for CrewAI
+openai>=1.1.0            # For LLM integration
+python-dotenv>=1.0.0     # For environment variable management
+langchain>=0.0.335       # Core dependency for CrewAI
+pydantic>=2.0.0          # Used by CrewAI for data models
+argparse>=1.4.0          # For command line argument parsing

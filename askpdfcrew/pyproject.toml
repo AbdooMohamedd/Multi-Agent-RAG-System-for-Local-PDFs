@@ -1,0 +1,26 @@
+[project]
+name = "askpdfcrew"
+version = "0.1.0"
+description = "AskPDFCrew using crewAI for PDF search and content generation"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai[tools]>=0.28.0",
+    "crewai-tools>=0.1.6",
+    "python-dotenv>=1.0.0",
+    "argparse>=1.4.0"
+]
+
+[project.scripts]
+askpdfcrew = "askpdfcrew.main:run"
+run_crew = "askpdfcrew.main:run"
+train = "askpdfcrew.main:train"
+replay = "askpdfcrew.main:replay"
+test = "askpdfcrew.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
